@@ -39,6 +39,7 @@ export const SIDEBAR: Sidebar = {
     ビルドガイド: [
       { text: 'SkeletonNumPadのビルドガイド', link: 'ja/skeletonnumpad' },
       { text: 'Skeleton68のビルドガイド', link: 'ja/skeleton68' },
+      { text: 'Frost68のビルドガイド', link: 'ja/frost68' },
     ],
     カスタマイズ: [
       { text: 'スタビライザーの取り付け', link: 'ja/install-stabilizer' },
