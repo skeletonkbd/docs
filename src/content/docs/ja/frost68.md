@@ -67,11 +67,11 @@ description: 'Frost68 の組み立て方をご紹介します。'
 
 Windows 環境で日本語入力のオン/オフをキーに割り当てる方法は以下のページをご確認ください。
 
-[Windows で IME のオン/オフを切り替えるキーを設定する](win-ime 'WindowsでIMEのオン/オフを切り替えるキーを設定する')
+[Windows で IME のオン/オフを切り替えるキーを設定する](../win-ime 'WindowsでIMEのオン/オフを切り替えるキーを設定する')
 
 また、キーマップをカスタマイズしたい場合は以下の手順をご参照ください。
 
-[キーマップのカスタマイズと LED の調整](customize-keymaps-and-led 'キーマップのカスタマイズとLEDの調整')
+[キーマップのカスタマイズと LED の調整](../customize-keymaps-and-led 'キーマップのカスタマイズとLEDの調整')
 
 ## RGB バックライトを操作する
 
