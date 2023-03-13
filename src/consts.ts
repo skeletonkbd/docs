@@ -1,12 +1,12 @@
 export const SITE = {
   title: 'SkeletonKBD Doc',
-  description: 'Your website description.',
+  description: 'スケルトンキーボードのドキュメントサイトです。  ',
   defaultLanguage: 'en-us',
 } as const
 
 export const OPEN_GRAPH = {
   image: {
-    src: 'https://github.com/withastro/astro/blob/main/assets/social/banner-minimal.png?raw=true',
+    src: 'https://docs.skeletonkbd.com/assets/f68/f01.jpg',
     alt:
       'astro logo on a starry expanse of space,' +
       ' with a purple saturn-like planet floating in the right foreground',
@@ -39,9 +39,13 @@ export const SIDEBAR: Sidebar = {
     ビルドガイド: [
       { text: 'SkeletonNumPadのビルドガイド', link: 'ja/skeletonnumpad' },
       { text: 'Skeleton68のビルドガイド', link: 'ja/skeleton68' },
-      { text: 'Frost68のビルドガイド', link: 'ja/frost68' },
+      { text: '🆕Frost68のビルドガイド', link: 'ja/frost68' },
     ],
     カスタマイズ: [
+      {
+        text: 'WindowsでIMEのオン/オフを切り替えるキーを設定する',
+        link: 'ja/win-ime',
+      },
       { text: 'スタビライザーの取り付け', link: 'ja/install-stabilizer' },
       {
         text: 'キーマップのカスタマイズとLEDの調整 ',
