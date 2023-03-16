@@ -55,7 +55,7 @@ description: 'Frost68 の組み立て方をご紹介します。'
 
 ## 動作確認
 
-元通りケースに取り付けてます。USB ケーブルを接続して動作確認を行います。（出荷状態では、バックライトは全て赤く点灯します）
+元通りケースに取り付けてます。USB ケーブルを接続して動作確認を行います。（出荷状態では、バックライト LED がすべて点灯します）
 
 特定のキーが反応しない場合、キースイッチのピンが曲がるなどして正しく取り付けられていない可能性があります。
 
@@ -69,11 +69,7 @@ Windows 環境で日本語入力のオン/オフをキーに割り当てる方�
 
 [Windows で IME のオン/オフを切り替えるキーを設定する](../win-ime 'WindowsでIMEのオン/オフを切り替えるキーを設定する')
 
-また、キーマップをカスタマイズしたい場合は以下の手順をご参照ください。
-
-[キーマップのカスタマイズと LED の調整](../customize-keymaps-and-led 'キーマップのカスタマイズとLEDの調整')
-
-## RGB バックライトを操作する
+### RGB バックライトを操作する
 
 RGB バックライトを操作するキーを以下にまとめます。お好みで設定してみてください。
 
@@ -87,3 +83,33 @@ RGB バックライトを操作するキーを以下にまとめます。お好�
 | RGB_SAD    | 彩度を下げる                     |
 | RGB_VAI    | 輝度を上げる                     |
 | RGB_VAD    | 輝度を下げる                     |
+
+## キーマップのカスタマイズ
+
+<s>[キーマップのカスタマイズと LED の調整](../customize-keymaps-and-led 'キーマップのカスタマイズとLEDの調整')</s>
+
+**(追記:2023/3/16) 現時点では、Frost68 のキーマップをカスタマイズする際は[VIA](https://www.caniusevia.com/)を使用することを強く推奨します。Frost68 のファームウェアは最新のバージョンの QMK を使用しているため、[Remap](https://remap-keys.app/)では一部のキーコードの表示が正しくありません。**
+
+### VIA でキーマップを変更する
+
+[https://www.caniusevia.com/](https://www.caniusevia.com/) をブラウザで表示します。`Start Now` をクリックします。
+
+<img src="/assets/f68/via01.jpg">
+
+`Authorize device +`をクリックします。
+
+<img src="/assets/f68/via02.jpg">
+
+Frost68 を USB ケーブルで接続していると以下のように表示されますので、Frost68 を選択して`接続`をクリックします。
+
+<img src="/assets/f68/via03.jpg">
+
+上部のメニューから`DESIGN`のアイコンをクリックして、設定用 JSON ファイルを画面中央にドラッグアンドドロップします。
+
+設定用 JSON ファイルはこちらです　 → [Frost68.json](https://drive.google.com/file/d/1xRvklHlTBu-B7jlhAMFc_c9hrNAf6gyK/view?usp=sharing)
+
+<img src="/assets/f68/via05.jpg">
+
+これでキーマップのカスタマイズできる状態になります。
+
+<img src="/assets/f68/via04.jpg">
