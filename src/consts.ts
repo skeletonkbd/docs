@@ -37,19 +37,16 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
   ja: {
     ビルドガイド: [
-      { text: 'SkeletonNumPadのビルドガイド', link: 'ja/skeletonnumpad' },
-      { text: 'Skeleton68のビルドガイド', link: 'ja/skeleton68' },
-      { text: '🆕 Frost68のビルドガイド', link: 'ja/frost68' },
+      { text: 'SkeletonNumPad', link: 'ja/skeletonnumpad' },
+      { text: 'Skeleton68', link: 'ja/skeleton68' },
+      { text: 'Frost68 & Clear68', link: 'ja/frost68' },
+      { text: '🚧 Skeleton8', link: 'ja/skeleton8' },
     ],
     カスタマイズ: [
-      {
-        text: 'WindowsでIMEのオン/オフを切り替えるキーを設定する',
-        link: 'ja/win-ime',
-      },
       { text: 'スタビライザーの取り付け', link: 'ja/install-stabilizer' },
       {
-        text: 'キーマップのカスタマイズとLEDの調整 ',
-        link: 'ja/customize-keymaps-and-led',
+        text: 'キーマップのカスタマイズ ',
+        link: 'ja/keymap',
       },
       {
         text: '効率の良いルブのやり方（リニアキースイッチ編） ',

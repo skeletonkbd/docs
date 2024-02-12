@@ -1,9 +1,11 @@
 ---
-title: 'Frost68のビルドガイド'
-description: 'Frost68 の組み立て方をご紹介します。'
+title: 'Frost68とClear68のビルドガイド'
+description: 'Frost68 & Clear68 の組み立て方をご紹介します。'
 ---
 
 当ストアから Frost68 をご購入いただくと組み立て済みの状態で届きますので、キースイッチとキーキャップを取り付けるだけでお使いいただけます。以下で作業手順を紹介します。
+
+（追記）Clear68についてもケースのアクリル板が透明であること以外に差異はございません。このページのガイドをご利用いただければと思います。
 
 ## ケースの分解
 
@@ -65,11 +67,15 @@ description: 'Frost68 の組み立て方をご紹介します。'
 
 <img src="/assets/f68/frost68_keymap.png">
 
-Windows 環境で日本語入力のオン/オフをキーに割り当てる方法は以下のページをご確認ください。
+## 日本語入力のオン/オフを切り替える
 
-[Windows で IME のオン/オフを切り替えるキーを設定する](../win-ime 'WindowsでIMEのオン/オフを切り替えるキーを設定する')
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/Frost68?src=hash&amp;ref_src=twsrc%5Etfw">#Frost68</a> はこんなやり方でIMEのON/OFFを切り替えることができます。Macだと設定不要、Windowsだとちょっと設定が必要です。 <a href="https://t.co/017NBY3VVU">pic.twitter.com/017NBY3VVU</a></p>&mdash; スケルトン💀キーボード (@skeletonkbd) <a href="https://twitter.com/skeletonkbd/status/1644593814605266951?ref_src=twsrc%5Etfw">April 8, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-### RGB バックライトを操作する
+英語キーボードとして認識させている場合でも、日本語入力のオン/オフを切り替えることができます。
+
+上記のキーマップで水色で表示している、<code>LNG1</code>を押すと日本語入力がオンになります。<code>LNG2</code>【 <code>MO(1)</code>を押しながら<code>LNG1</code> 】で日本語入力がオフになります。
+
+## RGB バックライトを操作する
 
 RGB バックライトを操作するキーを以下にまとめます。お好みで設定してみてください。
 
@@ -86,30 +92,8 @@ RGB バックライトを操作するキーを以下にまとめます。お好�
 
 ## キーマップのカスタマイズ
 
-<s>[キーマップのカスタマイズと LED の調整](../customize-keymaps-and-led 'キーマップのカスタマイズとLEDの調整')</s>
+以下のページを参照してください。
 
-**(追記:2023/3/16) 現時点では、Frost68 のキーマップをカスタマイズする際は[VIA](https://www.caniusevia.com/)を使用することを強く推奨します。Frost68 のファームウェアは最新のバージョンの QMK を使用しているため、[Remap](https://remap-keys.app/)では一部のキーコードの表示が正しくありません。**
+[キーマップのカスタマイズ](../keymap 'キーマップのカスタマイズとLEDの調整')
 
-### VIA でキーマップを変更する
-
-[https://www.caniusevia.com/](https://www.caniusevia.com/) をブラウザで表示します。`Start Now` をクリックします。
-
-<img src="/assets/f68/via01.jpg">
-
-`Authorize device +`をクリックします。
-
-<img src="/assets/f68/via02.jpg">
-
-Frost68 を USB ケーブルで接続していると以下のように表示されますので、Frost68 を選択して`接続`をクリックします。
-
-<img src="/assets/f68/via03.jpg">
-
-上部のメニューから`DESIGN`のアイコンをクリックして、設定用 JSON ファイルを画面中央にドラッグアンドドロップします。
-
-設定用 JSON ファイルはこちらです　 → [Frost68.json](https://drive.google.com/file/d/1xRvklHlTBu-B7jlhAMFc_c9hrNAf6gyK/view?usp=sharing)
-
-<img src="/assets/f68/via05.jpg">
-
-これでキーマップのカスタマイズできる状態になります。
-
-<img src="/assets/f68/via04.jpg">
+なお、Clear68の場合でも、Remapに登録されているキーボード名は **Frost68** です。
