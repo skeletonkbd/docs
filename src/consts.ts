@@ -40,7 +40,7 @@ export const SIDEBAR: Sidebar = {
       { text: 'SkeletonNumPad', link: 'ja/skeletonnumpad' },
       { text: 'Skeleton68', link: 'ja/skeleton68' },
       { text: 'Frost68 & Clear68', link: 'ja/frost68' },
-      { text: '🚧 Skeleton8', link: 'ja/skeleton8' },
+      { text: '🆕 Skeleton8', link: 'ja/skeleton8' },
     ],
     カスタマイズ: [
       { text: 'スタビライザーの取り付け', link: 'ja/install-stabilizer' },
