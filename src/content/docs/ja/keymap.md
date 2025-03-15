@@ -6,9 +6,18 @@ title: 'キーマップのカスタマイズ'
 
 ※ツールの開発者様へ当店のキーボード特有の問題についての問い合わせは行わないようお願いします。
 
-以下の作業は、キーボードを USB ケーブルで接続した状態で行います。
+| 商品名 | Remap対応状況 | VIA対応状況 |
+|---|---|---|
+| Frost68 & Clear68 | 登録済み | JSONファイルが必要 |
+| Skeleton8 | 登録済み | JSONファイルが必要 |
+| Skeleton68 | 登録済み | JSONファイルが必要 |
+| SkeletonNumPad | 登録済み | JSONファイルが必要 |
+
+※キーケット2025で販売したSkeleton8（ホログラム金・銀）のみ、 [Vial](https://get.vial.today/)対応のファームウェアが書き込まれています。
 
 ## Remap を使用する
+
+以下の作業は、キーボードを USB ケーブルで接続した状態で行います。
 
 https://remap-keys.app/ にブラウザでアクセスして、「START REMAP FOR YOUR KEYBOARD」のボタンをクリックします。
 
