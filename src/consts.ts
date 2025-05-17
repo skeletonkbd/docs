@@ -36,11 +36,14 @@ export type Sidebar = Record<
 >
 export const SIDEBAR: Sidebar = {
   ja: {
-    ビルドガイド: [
+    キーボード: [
       { text: 'SkeletonNumPad', link: 'ja/skeletonnumpad' },
       { text: 'Skeleton68', link: 'ja/skeleton68' },
       { text: 'Frost68 & Clear68', link: 'ja/frost68' },
-      { text: '🆕 Skeleton8', link: 'ja/skeleton8' },
+      { text: 'Skeleton8', link: 'ja/skeleton8' },
+    ],
+    ケース単体: [
+      { text: '🆕 Gravity36専用ケース', link: 'ja/gravity36-case' },
     ],
     カスタマイズ: [
       { text: 'スタビライザーの取り付け', link: 'ja/install-stabilizer' },

@@ -13,7 +13,7 @@ title: 'キーマップのカスタマイズ'
 | Skeleton68 | 登録済み | JSONファイルが必要 |
 | SkeletonNumPad | 登録済み | JSONファイルが必要 |
 
-※キーケット2025で販売したSkeleton8（ホログラム金・銀）のみ、 [Vial](https://get.vial.today/)対応のファームウェアが書き込まれています。
+※キーケット2025で販売したSkeleton8のみ、 [Vial](https://get.vial.today/)対応のファームウェアが書き込まれています。
 
 ## Remap を使用する
 
