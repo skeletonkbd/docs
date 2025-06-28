@@ -43,7 +43,7 @@ export const SIDEBAR: Sidebar = {
       { text: 'Skeleton8', link: 'ja/skeleton8' },
     ],
     ケース単体: [
-      { text: '🆕 Gravity36専用ケース', link: 'ja/gravity36-case' },
+      { text: 'Gravity36専用ケース', link: 'ja/gravity36-case' },
     ],
     カスタマイズ: [
       { text: 'スタビライザーの取り付け', link: 'ja/install-stabilizer' },
@@ -56,5 +56,11 @@ export const SIDEBAR: Sidebar = {
         link: 'ja/how-to-lube',
       },
     ],
+    KeebPlus製品: [
+      {
+        text: '🆕 MountPinの設計ガイドライン',
+        link: 'ja/mountpin',
+      },
+    ]
   },
 }
