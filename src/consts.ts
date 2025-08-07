@@ -6,7 +6,7 @@ export const SITE = {
 
 export const OPEN_GRAPH = {
   image: {
-    src: 'https://docs.skeletonkbd.com/assets/f68/f01.jpg',
+    src: 'https://docs.skeletonkbd.com/assets/og-image.jpg',
     alt:
       'astro logo on a starry expanse of space,' +
       ' with a purple saturn-like planet floating in the right foreground',
@@ -58,8 +58,12 @@ export const SIDEBAR: Sidebar = {
     ],
     KeebPlus製品: [
       {
-        text: '🆕 MountPinの設計ガイドライン',
+        text: '🆕 マウントピン',
         link: 'ja/mountpin',
+      },
+      {
+        text: '🆕 滑り止めシリコンパッド',
+        link: 'ja/siliconepad',
       },
     ]
   },
