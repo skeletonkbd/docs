@@ -62,7 +62,7 @@ export const SIDEBAR: Sidebar = {
         link: 'ja/mountpin',
       },
       {
-        text: '🆕 滑り止めシリコンパッド',
+        text: '🆕 シリコンパッド',
         link: 'ja/siliconepad',
       },
     ]
