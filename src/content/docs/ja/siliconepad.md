@@ -3,7 +3,7 @@ title: 'シリコンパッド対応ケースの設計ガイドライン'
 description: '滑り止めシリコンパッドを採用したキーボードケースの設計のガイドラインです。一般ユーザーではなく、設計者向けの内容になっています。'
 ---
 
-> [このパーツの販売ページ -  GREENKEYSショップ](https://shop.green-keys.info/products/sillicone-pad)
+> [このパーツの販売ページ -  GreenKeysショップ](https://shop.green-keys.info/products/sillicone-pad)
 
 <img src="/assets/sp/sample.jpg">
 

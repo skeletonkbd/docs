@@ -3,7 +3,7 @@ title: 'マウントピン対応ケースの設計ガイドライン'
 description: 'マウントピンを採用したキーボードケースの設計のガイドラインです。一般ユーザーではなく、設計者向けの内容になっています。'
 ---
 
-> [このパーツの販売ページ -  GREENKEYSショップ](https://shop.green-keys.info/products/mount-pin)
+> [このパーツの販売ページ -  GreenKeysショップ](https://shop.green-keys.info/products/mount-pin)
 
 <img src="/assets/mp/mp.jpg">
 
