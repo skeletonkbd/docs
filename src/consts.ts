@@ -41,6 +41,7 @@ export const SIDEBAR: Sidebar = {
       { text: 'Skeleton68', link: 'ja/skeleton68' },
       { text: 'Frost68 & Clear68', link: 'ja/frost68' },
       { text: 'Skeleton8', link: 'ja/skeleton8' },
+      { text: '🆕 Nehan42', link: 'ja/nehan42' },
     ],
     ケース単体: [
       { text: 'Gravity36専用ケース', link: 'ja/gravity36-case' },
@@ -58,11 +59,11 @@ export const SIDEBAR: Sidebar = {
     ],
     KeebPlus製品: [
       {
-        text: '🆕 マウントピン',
+        text: 'マウントピン',
         link: 'ja/mountpin',
       },
       {
-        text: '🆕 シリコンパッド',
+        text: 'シリコンパッド',
         link: 'ja/siliconepad',
       },
     ]
