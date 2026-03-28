@@ -2,7 +2,9 @@
 title: 'Nehan42のビルドガイド'
 description: 'Nehan42の組み立て方をご紹介します。'
 ---
+## キーマップのカスタマイズ
 
+[Vial](https://get.vial.today/)をお使いください。Vialに対応したファームウェアが書き込まれています。
 
 ## ビルド手順
 
